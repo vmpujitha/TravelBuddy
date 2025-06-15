@@ -55,14 +55,4 @@ src/
 
 ---
 
-## 📸 Screenshots (Add image links)
-- Homepage  
-- Homestay Search  
-- Booking Page  
-- Admin Dashboard  
-
----
-
-## 📜 License
-Open source for learning purposes.
 
