@@ -1,8 +1,12 @@
 # 🌍 Travel Buddy - Java Full Stack Web Application
 
 ## 💡 Overview
-Travel Buddy is a full stack web platform built to connect travelers with local homestay experiences and hidden cultural gems. The application allows tourists to book stays, explore regional attractions, and communicate with local guides for personalized travel planning.
+TravelBuddy is a Travel and Tourism Management System Web Application developed in JAVA full stack which connects the tourists to the loacl homestay destinations and experience. It not only allows the users to search, filter, explore and book the homestay experiences it also helps the travellers to connect with the local guides for the better insights of regional attractions and culture. This also helps the user to take the better holiday trip decisions by empowering local hosts and guides .
 
+There are total Two modules used :
+
+Admin module : Manages the Users , properties like adding the tour packages, destinations etc and reporting issues.
+User module : Allows new users (tourists or hosts) to sign up. Implements secure login with validation and handles all the operations related to users and hosts.
 ---
 
 ## 🔧 Tech Stack
@@ -20,7 +24,6 @@ Travel Buddy is a full stack web platform built to connect travelers with local 
 - 📅 Real-time Booking System
 - 🌐 Local Guide Recommendations
 - 📬 Contact and Feedback Mechanism
-- 📱 Responsive UI with Bootstrap
 
 ---
 
