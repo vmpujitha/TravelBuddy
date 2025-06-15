@@ -49,11 +49,6 @@ src/
 5. Run the main Spring Boot application class.
 6. Open a browser and go to `http://localhost:8080`.
 
-## 📸 Screenshots (Optional - Add image links)
-- Homepage
-- Search Page
-- Booking Confirmation
-- Admin Dashboard
 
 ## 👩‍💻 Developer
 **Pujitha Jangalapalli**  
