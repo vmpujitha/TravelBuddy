@@ -1,61 +1,63 @@
-# 🌍 Travel Buddy - Java Full Stack Web Application
+# 🌍 Travel Buddy – Java Full Stack Web Application
 
 ## 💡 Overview
-TravelBuddy is a Travel and Tourism Management System Web Application developed in JAVA full stack which connects the tourists to the loacl homestay destinations and experience. It not only allows the users to search, filter, explore and book the homestay experiences it also helps the travellers to connect with the local guides for the better insights of regional attractions and culture. This also helps the user to take the better holiday trip decisions by empowering local hosts and guides .
+**Travel Buddy** is a full-stack Travel and Tourism Management System web application built using Java technologies. It connects tourists with local homestay destinations, providing a platform to search, filter, explore, and book authentic travel experiences. The system also enables interaction with local guides for insights into cultural and regional attractions, helping travelers make better vacation decisions while supporting local communities.
 
-There are total Two modules used :
+## 🧩 Modules
+### 1. 👤 User Module
+- Allows users (tourists and hosts) to register and log in.
+- Secure login system with role-based access control.
+- Tourists can search and book homestays.
+- Hosts can manage their property listings.
 
-Admin module : Manages the Users , properties like adding the tour packages, destinations etc and reporting issues.
-User module : Allows new users (tourists or hosts) to sign up. Implements secure login with validation and handles all the operations related to users and hosts.
----
+### 2. 🛠️ Admin Module
+- Manages users, properties, feedback, and tour packages.
+- Adds and edits destinations and handles reported issues.
+- Monitors system activities.
 
 ## 🔧 Tech Stack
-- **Backend**:  Spring Boot
-- **Frontend**: HTML, CSS, JPA
+- **Backend**: Spring Boot (Java)
+- **Frontend**: HTML, CSS, Bootstrap
 - **Database**: MySQL
-- **Tools**: Maven 
+- **Persistence Layer**: JPA (Java Persistence API)
+- **Build Tool**: Maven
+- **IDE**: Eclipse / IntelliJ
 
----
-
-## 🎯 Features
-- 👤 User & Admin Registration/Login
-- 🏡 List & Manage Homestays
-- 🔍 Search with Filters by Location, Price, Rating
-- 📅 Real-time Booking System
-- 🌐 Local Guide Recommendations
-- 📬 Contact and Feedback Mechanism
-
----
+## 🎯 Key Features
+- 👥 User and Admin registration/login
+- 🏡 Homestay listing and management (CRUD)
+- 🔍 Search and filter by location, price, rating
+- 📅 Real-time booking system with confirmation
+- 🧭 Local guide recommendations
+- ✉️ Contact and feedback form
+- 📱 Responsive UI using Bootstrap
 
 ## 🧱 Project Structure (MVC Architecture)
 src/
-├── controller/
-├── model/
-├── repository/
-├── service/
-├── resources/
-└── webapp/
-
-
----
+├── controller/ # Handles incoming requests and routes
+├── model/ # Java entity classes for database
+├── repository/ # Spring Data JPA interfaces
+├── service/ # Business logic and service layer
+├── resources/ # Configuration and templates
+└── webapp/ # Frontend JSP or HTML files
 
 ## 🚀 How to Run the Project
-1. Clone the repository  
-2. Import into Eclipse/IntelliJ  
-3. Create a MySQL database `travelbuddy_db`  
-4. Update `application.properties` with your DB credentials  
-5. Run the Spring Boot main class  
-6. Access `localhost:8080` in your browser  
+1. Clone the repository from GitHub.
+2. Open it in your IDE (Eclipse or IntelliJ).
+3. Create a MySQL database named `travelbuddy_db`.
+4. Update `application.properties` with your MySQL credentials.
+5. Run the main Spring Boot application class.
+6. Open a browser and go to `http://localhost:8080`.
 
----
+## 📸 Screenshots (Optional - Add image links)
+- Homepage
+- Search Page
+- Booking Confirmation
+- Admin Dashboard
 
-## 🧑‍💻 Team & Contributions
-**Developer**: Pujitha  
-- Developed end-to-end CRUD operations  
-- Designed responsive UI  
-- Built admin and user dashboards  
-- Integrated search and booking logic
-
----
-
-
+## 👩‍💻 Developer
+**Pujitha Jangalapalli**  
+- Developed end-to-end CRUD operations.  
+- Designed responsive frontend UI.  
+- Built secure authentication system.  
+- Integrated booking logic and dashboard flows.
