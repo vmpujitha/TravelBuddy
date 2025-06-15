@@ -6,10 +6,10 @@ Travel Buddy is a full stack web platform built to connect travelers with local 
 ---
 
 ## 🔧 Tech Stack
-- **Backend**: Java, Spring Boot, Spring Data JPA
-- **Frontend**: HTML, CSS, Bootstrap
+- **Backend**:  Spring Boot
+- **Frontend**: HTML, CSS, JPA
 - **Database**: MySQL
-- **Tools**: Maven, Git, GitHub
+- **Tools**: Maven 
 
 ---
 
