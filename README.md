@@ -17,7 +17,7 @@
 
 ## 🔧 Tech Stack
 - **Backend**: Spring Boot (Java)
-- **Frontend**: HTML, CSS, Bootstrap
+- **Frontend**: HTML, CSS, JSP
 - **Database**: MySQL
 - **Persistence Layer**: JPA (Java Persistence API)
 - **Build Tool**: Maven
@@ -30,7 +30,6 @@
 - 📅 Real-time booking system with confirmation
 - 🧭 Local guide recommendations
 - ✉️ Contact and feedback form
-- 📱 Responsive UI using Bootstrap
 
 ## 🧱 Project Structure (MVC Architecture)
 src/
